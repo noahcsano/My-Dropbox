@@ -12,9 +12,13 @@ We provided two servers:
   Keystore, provides a public key store for everyone. It is trusted. 
   Datastore, provides key-value storage for everyone. It is untrusted.
 Using cryptographic security algorithms such as symmetric/asymmetric encryption, MACs, and Digital Signatures and the provided servers, I implemented the following functions: 
+
 InitUser: Initializing a user and their public/private keys for file storage and sharing
+
 GetUser: Retrieving the above data
+
 StoreFile: Using the provided keys of an user, encrypting, and storing the data into the untrusted server
+
 AppendFile: Adding blocks of data/information to already stored data
 LoadFile: Retrieving entire data files from the unstrusted server
 ShareFile: Sending an invitation/file information to another user over untrusted server  
