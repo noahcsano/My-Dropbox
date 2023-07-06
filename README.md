@@ -8,7 +8,7 @@ Libraries/Packages: "github.com/cs161-staff/project2-userlib"- for server handli
 In this project, I implemented a client for a file stroring and sharing system. The client will allow users to store and load files,
 share files with other users, and revoke access to a shared file from other users. Users of this application will launch the client and provide their username and password. Once authenticated, they will use the client to upload and download files to/from the server. 
 
-We provided two servers: 
+We were provided two servers: 
   Keystore, provides a public key store for everyone. It is trusted. 
   Datastore, provides key-value storage for everyone. It is untrusted.
   
